@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PicPayChallengeApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Test to see if the application can properly configure text, before running");
 		SpringApplication.run(PicPayChallengeApplication.class, args);
 
 	}
